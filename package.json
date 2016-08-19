@@ -1,0 +1,38 @@
+{
+  "name": "code-frame",
+  "version": "1.0.0",
+  "description": "Got an error, give me the src/line/col and I'll frame it for you.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && nyc ava",
+    "lint": "standard | snazzy",
+    "coverage": "npm test && nyc report --reporter=html && open ./coverage/index.html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "ava": {
+    "verbose": "true"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hhsnopek/code-frame.git"
+  },
+  "author": "Henry Snopek <hhsnopek@gmail.com> (http://hhsnopek.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hhsnopek/code-frame/issues"
+  },
+  "homepage": "https://github.com/hhsnopek/code-frame#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0",
+    "snazzy": "^4.0.1",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "left-pad": "^1.1.1"
+  }
+}

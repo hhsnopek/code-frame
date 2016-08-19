@@ -1,0 +1,6 @@
+test
+.editorconfig
+.travis.yml
+coverage
+.nyc_output
+node_modules
