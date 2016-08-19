@@ -1,7 +1,7 @@
 {
   "name": "code-frame",
   "version": "1.0.0",
-  "description": "Got an error, give me the src/line/col and I'll frame it for you.",
+  "description": "Minimal Code Frame like babel-code-frame, but smaller",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run lint && nyc ava",

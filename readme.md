@@ -1,13 +1,12 @@
-# Code Frame
-[![Travis]]()
-[![Coveralls]]()
-[![NPM]]()
-[![L]][MIT]
+# Code Frame [![npm](https://img.shields.io/npm/v/code-frame.svg?style=flat-square)](https://npmjs.com/package/code-frame) [![tests](https://img.shields.io/travis/hhsnopek/code-frame.svg?style=flat-square)](https://travis-ci.org/hhsnopek/code-frame?branch=master) [![coverage](https://img.shields.io/coveralls/hhsnopek/code-frame.svg?style=flat-square)](https://coveralls.io/r/hhsnopek/code-frame?branch=master)
+> Minimal Code Frame like babel-code-frame, but smaller
 
-Minimal Code Frame like babel-code-frame, but smaller
+## Install
+```bash
+npm install --save code-frame
+```
 
 ## Usage
-
 ```javascript
 const framer = require('code-frame')
 
@@ -29,14 +28,5 @@ framer('\n\n\tconsole.logfoo, bar)', 3)
 //   4. |
 ```
 
-## Development
-requirements:
-- node: 6.0  >=
-
-cmds: `npm test`
-
-[Travis]: //img.shields.io/travis/hhsnopek/code-frame.svg?maxAge=2592000?style=flat-square
-[Coveralls]: //img.shields.io/coveralls/hhsnopek/code-frame.svg?maxAge=2592000?style=flat-square
-[NPM]: //img.shields.io/npm/hhsnopek/code-frame.svg?maxAge=2592000?style=flat-square
-[L]: //img.shields.io/npm/l/code-frame.svg?maxAge=2592000
-[MIT]: license.md
+## License
+MIT © [Henry Snopek](https://hhsnopek.com)
