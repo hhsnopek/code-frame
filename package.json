@@ -1,6 +1,6 @@
 {
   "name": "code-frame",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal Code Frame like babel-code-frame, but smaller",
   "main": "lib/index.js",
   "scripts": {
