@@ -30,7 +30,7 @@
     "coveralls": "^2.11.12",
     "nyc": "^8.1.0",
     "snazzy": "^4.0.1",
-    "standard": "^7.1.2"
+    "standard": "^8.0.0"
   },
   "dependencies": {
     "left-pad": "^1.1.1"
