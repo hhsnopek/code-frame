@@ -16,16 +16,16 @@ const framer = require('code-frame')
 // col   - int (optional)
 
 framer('\nfunction (foo) {\n\tconsole.log(foo\n}', 3, 24)
-//   2. | function (foo) {
-// > 3. |         console.log(foo
-//      |                        ^
-//   4. |
+//   2 | function (foo) {
+// > 3 |         console.log(foo
+//     |                        ^
+//   4 |
 
 // Without col
 framer('\n\n\tconsole.logfoo, bar)', 3)
-//   2. |
-// > 3. |         console.logfoo, bar)
-//   4. |
+//   2 |
+// > 3 |         console.logfoo, bar)
+//   4 |
 ```
 
 ## License
