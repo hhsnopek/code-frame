@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/hhsnopek/code-frame#readme",
   "devDependencies": {
-    "ava": "^0.16.0",
-    "coveralls": "^2.11.12",
-    "nyc": "^8.1.0",
+    "ava": "^0.17.0",
+    "coveralls": "^2.11.15",
+    "nyc": "^9.0.1",
     "snazzy": "^5.0.0",
-    "standard": "^8.0.0"
+    "standard": "^8.5.0"
   },
   "dependencies": {
-    "left-pad": "^1.1.1"
+    "left-pad": "^1.1.3"
   }
 }
