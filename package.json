@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/hhsnopek/code-frame#readme",
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.17.0",
     "coveralls": "^2.11.12",
     "nyc": "^8.1.0",
     "snazzy": "^5.0.0",
