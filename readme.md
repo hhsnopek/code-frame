@@ -1,4 +1,4 @@
-# Code Frame [![npm](https://img.shields.io/npm/v/code-frame.svg?style=flat-square)](https://npmjs.com/package/code-frame) [![tests](https://img.shields.io/travis/hhsnopek/code-frame.svg?style=flat-square)](https://travis-ci.org/hhsnopek/code-frame?branch=master) [![coverage](https://img.shields.io/coveralls/hhsnopek/code-frame.svg?style=flat-square)](https://coveralls.io/r/hhsnopek/code-frame?branch=master)
+# Code Frame [![npm](https://img.shields.io/npm/v/code-frame.svg?style=flat-square)](https://npmjs.com/package/code-frame) [![tests](https://img.shields.io/travis/hhsnopek/code-frame.svg?style=flat-square)](https://travis-ci.org/hhsnopek/code-frame?branch=master) [![coverage](https://img.shields.io/coveralls/hhsnopek/code-frame.svg?style=flat-square)](https://coveralls.io/r/hhsnopek/code-frame?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/hhsnopek/code-frame.svg)](https://greenkeeper.io/)
 > Minimal Code Frame like babel-code-frame, but smaller
 
 ## Install
